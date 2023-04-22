@@ -6,12 +6,6 @@ import { Notification } from './Notification';
 import PropTypes from 'prop-types';
 
 export class App extends Component {
-  static propTypes = {
-    handleClick: PropTypes.func.isRequired,
-    countTotalFeedback: PropTypes.func.isRequired,
-    countPositiveFeedbackPercentage: PropTypes.func.isRequired,
-  };
-
   state = {
     good: 0,
     neutral: 0,
